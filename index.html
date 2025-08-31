@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Datenschutz — [App-Name]</title>
+  <style>
+    :root{
+      --bg: #f5f7fb;
+      --card: #ffffff;
+      --muted: #6b7280;
+      --accent: #007aff;
+      --text: #0b1220;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      -webkit-font-smoothing:antialiased;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.45;
+    }
+
+    .container{
+      max-width:960px;
+      margin:48px auto;
+      padding:24px;
+    }
+
+    .header{display:flex;gap:16px;align-items:center}
+    .logo{
+      width:64px;height:64px;border-radius:14px;display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:20px;
+      background:linear-gradient(135deg,var(--accent),#4cc3ff);box-shadow:0 10px 30px rgba(2,6,23,0.08);
+    }
+    .title{font-size:22px;font-weight:600}
+    .subtitle{color:var(--muted);margin-top:6px}
+
+    .card{background:var(--card);border-radius:14px;padding:18px;margin-top:20px;box-shadow:0 10px 30px rgba(11,18,32,0.05)}
+    h2{margin:0 0 8px 0;font-size:16px}
+    p{margin:8px 0;color:var(--text)}
+    .small{color:var(--muted);font-size:13px}
+
+    .kv{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
+    .kv span{background:#f3f6fb;padding:8px 12px;border-radius:10px;font-size:13px}
+
+    a{color:var(--accent);text-decoration:none}
+
+    footer{margin-top:28px;text-align:center;color:var(--muted);font-size:13px}
+
+    @media (prefers-color-scheme:dark){
+      :root{--bg:#0b0d10;--card:#0f1720;--muted:#94a3b8;--text:#e6eef8}
+      .logo{box-shadow:0 10px 30px rgba(2,6,23,0.6)}
+      .kv span{background:rgba(255,255,255,0.03)}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="logo">DB</div>
+      <div>
+        <div class="title">Datenschutz — SchiessLog</div>
+        <div class="subtitle">Kurz & knapp: Es werden keine personenbezogenen Daten erhoben oder übermittelt.</div>
+      </div>
+    </header>
+
+    <section class="card" aria-labelledby="summary">
+      <h2 id="summary">Zusammenfassung</h2>
+      <p>Diese App speichert alle Daten ausschliesslich lokal auf dem Gerät des Nutzers. Es werden <strong>keine</strong> personenbezogenen Daten an uns oder Dritte übertragen. Es findet kein Tracking statt und es werden keine Analyse-SDKs verwendet.</p>
+      <div class="small">Letzte Aktualisierung: 31. August 2025</div>
+    </section>
+
+    <section class="card" aria-labelledby="data">
+      <h2 id="data">Welche Daten werden gespeichert?</h2>
+      <p>Die App speichert Trainingsdaten (z. B. Schiess-Einträge, die der Nutzer selbst eingeben muss), Lauf-Informationen, Sektor-Markierungen, Metadaten (Datum, Waffe, Distanz) und optional Fotos. Alle Daten verbleiben auf dem Gerät.</p>
+      <div class="kv">
+        <span>Schiesseinträge</span>
+        <span>Läufe</span>
+        <span>Gewehre</span>
+        <span>Fotos (optional)</span>
+      </div>
+    </section>
+
+    <section class="card" aria-labelledby="export">
+      <h2 id="export">Export & Backup</h2>
+      <p>Nutzer können ihre Daten exportieren.</p>
+    </section>
+
+    <section class="card" aria-labelledby="third">
+      <h2 id="third">Drittparteien & Analytik</h2>
+      <p>Die App nutzt keine Drittanbieter-Analytik, Werbung oder Tracking-SDKs. Es findet keine Datenübermittlung an Dienste wie Google, Facebook o.ä. statt.</p>
+    </section>
+
+    <section class="card" aria-labelledby="changes">
+      <h2 id="changes">Änderungen dieser Richtlinie</h2>
+      <p>Wir behalten uns vor, diese Richtlinie anzupassen. Änderungen werden hier mit Datum dokumentiert.</p>
+    </section>
+
+    <footer>
+      <hr style="opacity:.06;margin:20px 0" />
+      <div>Made with ♥ in Switzerland 🇨🇭</div>
+    </footer>
+  </div>
+</body>
+</html>
