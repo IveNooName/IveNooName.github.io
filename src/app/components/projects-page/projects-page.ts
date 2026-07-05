@@ -1,10 +1,11 @@
 import { Component, inject, signal } from '@angular/core';
 import { ProjectStore } from '../../service/project-store';
 import { Project } from '../../service/project';
+import { ProjectCard } from './project-card/project-card';
 
 @Component({
   selector: 'app-projects-page',
-  imports: [],
+  imports: [ProjectCard],
   templateUrl: './projects-page.html',
   styleUrl: './projects-page.scss',
 })
