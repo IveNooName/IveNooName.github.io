@@ -1,5 +1,5 @@
 .title {
-  height: 98dvh;
+  height: 100dvh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,7 +11,7 @@
   margin-bottom: 1%;
 
   @media (max-width: 600px) {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 }
 .sub-title {
@@ -26,5 +26,6 @@
 .divider {
   max-width: 1200px;
   margin: 0 auto;
+  padding-bottom: 20px;
 }
 
