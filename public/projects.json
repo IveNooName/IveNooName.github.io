@@ -7,11 +7,24 @@
     "imageLink": "https://media.istockphoto.com/id/1980276924/vector/no-photo-thumbnail-graphic-element-no-found-or-available-image-in-the-gallery-or-album-flat.jpg?s=612x612&w=0&k=20&c=ZBE3NqfzIeHGDPkyvulUw14SaWfDj2rZtyiKv3toItk="
   },
   {
-    "id": 1,
+    "id": 2,
     "title": "Weather API",
     "description": "A API for the ESP32 to send data",
     "repoLink": "https://www.github.com/ivenooname/weatherapi",
     "imageLink": "https://media.istockphoto.com/id/1980276924/vector/no-photo-thumbnail-graphic-element-no-found-or-available-image-in-the-gallery-or-album-flat.jpg?s=612x612&w=0&k=20&c=ZBE3NqfzIeHGDPkyvulUw14SaWfDj2rZtyiKv3toItk="
-
+  },
+  {
+    "id": 3,
+    "title": "My first personal website",
+    "description": "My first personal website, that i coded",
+    "repoLink": "https://www.github.com/ivenooname/first-website",
+    "imageLink": "https://media.istockphoto.com/id/1980276924/vector/no-photo-thumbnail-graphic-element-no-found-or-available-image-in-the-gallery-or-album-flat.jpg?s=612x612&w=0&k=20&c=ZBE3NqfzIeHGDPkyvulUw14SaWfDj2rZtyiKv3toItk="
+  },
+  {
+    "id": 4,
+    "title": "This Website",
+    "description": "Made with Angular",
+    "repoLink": "https://www.github.com/ivenooname/ivenooname.github.io",
+    "imageLink": "https://media.istockphoto.com/id/1980276924/vector/no-photo-thumbnail-graphic-element-no-found-or-available-image-in-the-gallery-or-album-flat.jpg?s=612x612&w=0&k=20&c=ZBE3NqfzIeHGDPkyvulUw14SaWfDj2rZtyiKv3toItk="
   }
 ]
