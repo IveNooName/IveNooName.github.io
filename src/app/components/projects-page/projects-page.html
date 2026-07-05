@@ -1,6 +1,9 @@
 <div>
   <h2 class="head-title">My Projects</h2>
 </div>
-@for(p of projects(); track p.id) {
-  <app-project-card [project]="p"></app-project-card>
-}
+
+<div class="projects-grid">
+  @for (p of projects(); track p.id) {
+    <app-project-card [project]="p" />
+  }
+</div>
