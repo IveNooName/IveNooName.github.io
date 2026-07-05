@@ -7,4 +7,10 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  justify-content: center;
+}
+
+.divider {
+  max-width: 1200px;
+  margin: 20px auto 0;
 }

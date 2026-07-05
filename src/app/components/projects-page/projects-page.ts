@@ -2,10 +2,11 @@ import { Component, inject, signal } from '@angular/core';
 import { ProjectStore } from '../../service/project-store';
 import { Project } from '../../service/project';
 import { ProjectCard } from './project-card/project-card';
+import { MatDivider } from '@angular/material/list';
 
 @Component({
   selector: 'app-projects-page',
-  imports: [ProjectCard],
+  imports: [ProjectCard, MatDivider],
   templateUrl: './projects-page.html',
   styleUrl: './projects-page.scss',
 })
