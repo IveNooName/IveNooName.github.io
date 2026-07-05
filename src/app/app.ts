@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { ConfidenceScale } from './component/confidence-scale/confidence-scale';
+import { LandingPage } from './components/landing-page/landing-page';
 
 @Component({
   selector: 'app-root',
-  imports: [ConfidenceScale],
+  imports: [LandingPage],
   templateUrl: './app.html',
   styleUrl: './app.scss',
 })

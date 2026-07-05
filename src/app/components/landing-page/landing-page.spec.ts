@@ -1,17 +1,17 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ConfidenceScale } from './confidence-scale';
+import { LandingPage } from './landing-page';
 
-describe('ConfidenceScale', () => {
-  let component: ConfidenceScale;
-  let fixture: ComponentFixture<ConfidenceScale>;
+describe('LandingPage', () => {
+  let component: LandingPage;
+  let fixture: ComponentFixture<LandingPage>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ConfidenceScale],
+      imports: [LandingPage],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(ConfidenceScale);
+    fixture = TestBed.createComponent(LandingPage);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });
