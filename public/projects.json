@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Blackflag",
+    "description": "A Music-Piracy-Program for downloading music",
+    "link": "github.com/ivenooname/blackflag"
+  },
+  {
+    "title": "Weather API",
+    "description": "A API for the ESP32 to send data",
+    "link": "github.com/ivenooname/weatherapi"
+  }
+]
