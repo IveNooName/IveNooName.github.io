@@ -1,0 +1,22 @@
+//.box {
+//  background-color: var(--mat-sys-on-primary-container);
+//  width: 100px;
+//}
+//.bar {
+//  background-color: var(--mat-sys-on-primary-container);
+//  width: 100%;
+//}
+
+.column {
+  display: grid;
+  grid-template-columns: 100px 1fr 50px;
+  gap: 12px;
+}
+.box {
+  background: var(--mat-sys-surface-container);
+  height: 100px;
+}
+.bar {
+  background: var(--mat-sys-primary);
+  height: 100%;
+}

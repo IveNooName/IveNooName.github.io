@@ -9,7 +9,7 @@ import { Language } from './language';
 export class LanguageStore {
   http = inject(HttpClient);
   apiUrl: string =
-    'https://raw.githubusercontent.com/IveNooName/IveNooName.github.io/refs/heads/main/public/projects.json';
+    'https://raw.githubusercontent.com/IveNooName/IveNooName.github.io/refs/heads/main/public/languages.json';
 
   getAll(): Observable<Language[]> {
     return this.http.get<Language[]>(this.apiUrl);
