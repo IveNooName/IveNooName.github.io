@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Java",
+    "description": "",
+    "note": "best language ever",
+    "totalLines": 10881,
+    "percent": 0
+  },
+  {
+    "name": "Swift",
+    "description": "",
+    "note": "",
+    "totalLines": 408,
+    "percent": 0
+  },
+  {
+    "name": "TypeScript",
+    "description": "",
+    "note": "",
+    "totalLines": 1479,
+    "percent": 0
+  },
+  {
+    "name": "JavaScript",
+    "description": "",
+    "note": "",
+    "totalLines": 1199,
+    "percent": 0
+  },
+  {
+    "name": "C#",
+    "description": "",
+    "note": "",
+    "totalLines": 500,
+    "percent": 0
+  }
+]
