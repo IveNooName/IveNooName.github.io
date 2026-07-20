@@ -1,9 +1,15 @@
-@for (l of chartData(); track $index) {
-  <div class="column">
-    <span>{{ l.percent }}</span>
-    <div class="box">
-      <div class="bar" [style.height.%]="75"></div>
-    </div>
-    <span>{{ l.name }}</span>
-  </div>
+@for (n of numbersForStat; track $index) {
+  <div class="test2">{{ n }}</div>
 }
+
+<div class="container">
+  @for (l of chartData(); track $index) {
+    <div class="test" [style.height.%]="l.percent"></div>
+  }
+</div>
+<mat-divider></mat-divider>
+<div class="container2">
+  @for (l of chartData(); track $index) {
+    <div class="test2">{{ l.name }}</div>
+  }
+</div>

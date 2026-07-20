@@ -1,22 +1,40 @@
-//.box {
-//  background-color: var(--mat-sys-on-primary-container);
-//  width: 100px;
-//}
-//.bar {
-//  background-color: var(--mat-sys-on-primary-container);
-//  width: 100%;
-//}
-
 .column {
   display: grid;
   grid-template-columns: 100px 1fr 50px;
   gap: 12px;
 }
+
 .box {
   background: var(--mat-sys-surface-container);
   height: 100px;
+  rotate: 180deg;
 }
+
 .bar {
   background: var(--mat-sys-primary);
   height: 100%;
+}
+
+
+.test {
+  background: var(--mat-sys-primary);
+  width: 100px;
+}
+
+.test2 {
+  width: 100px;
+}
+
+.container {
+  display: flex;
+  height: 600px;
+  gap: 16px;
+  align-items: flex-end;
+}
+
+.container2 {
+  display: flex;
+  gap: 16px;
+  align-items: flex-end;
+  padding-top: 1em;
 }
