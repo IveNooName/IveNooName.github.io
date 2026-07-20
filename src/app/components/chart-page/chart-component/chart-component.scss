@@ -38,3 +38,29 @@
   align-items: flex-end;
   padding-top: 1em;
 }
+
+.backgroundLines {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.backgroundLines mat-divider {
+  flex: 1;
+  position: static;
+}
+
+.backgroundLines span {
+  font-weight: bold;
+  font-size: 1.5em;
+  width: 35px;
+  height: 60px;
+}
+
+.stack {
+  display: grid;
+}
+
+.stack > * {
+  grid-area: 1 / 1;
+}

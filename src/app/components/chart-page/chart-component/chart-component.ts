@@ -9,10 +9,8 @@ import { MatDivider } from '@angular/material/list';
   styleUrl: './chart-component.scss',
 })
 export class ChartComponent {
-  totalLines = 10;
-
   languages = input.required<Language[]>();
-  numbersForStat: number[] | undefined;
+  numbersForStat: number[] = [];
 
   chartData = computed(() => {
     const langs = this.languages();
@@ -29,10 +27,8 @@ export class ChartComponent {
   });
 
   ngOnInit() {
-    this.numbersForStat = new Array<number>(this.totalLines + 1);
-    this.numbersForStat[0] = 0
-    for (let i = 1; i <= this.totalLines; i++) {
-      this.numbersForStat[i] = i * 10
+    for (let i = 10; i > 0; i--) {
+      this.numbersForStat.push(i * 10);
     }
   }
 }

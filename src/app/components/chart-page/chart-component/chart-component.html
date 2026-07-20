@@ -1,11 +1,18 @@
-@for (n of numbersForStat; track $index) {
-  <div class="test2">{{ n }}</div>
-}
+<div class="stack">
+  <div style="height: 600px;">
+    @for (n of numbersForStat; track $index) {
+      <div class="backgroundLines">
+        <span>{{ n }}</span>
+        <mat-divider></mat-divider>
+      </div>
+    }
+  </div>
 
-<div class="container">
-  @for (l of chartData(); track $index) {
-    <div class="test" [style.height.%]="l.percent"></div>
-  }
+  <div class="container">
+    @for (l of chartData(); track $index) {
+      <div class="test" [style.height.%]="l.percent"></div>
+    }
+  </div>
 </div>
 <mat-divider></mat-divider>
 <div class="container2">
