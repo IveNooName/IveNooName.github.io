@@ -33,5 +33,33 @@
     "note": "",
     "totalLines": 500,
     "percent": 0
+  },
+  {
+    "name": "Python",
+    "description": "",
+    "note": "",
+    "totalLines": 300,
+    "percent": 0
+  },
+  {
+    "name": "HTML",
+    "description": "",
+    "note": "",
+    "totalLines": 1000,
+    "percent": 0
+  },
+  {
+    "name": "CSS",
+    "description": "",
+    "note": "",
+    "totalLines": 500,
+    "percent": 0
+  },
+  {
+    "name": "JSON",
+    "description": "",
+    "note": "",
+    "totalLines": 200,
+    "percent": 0
   }
 ]
