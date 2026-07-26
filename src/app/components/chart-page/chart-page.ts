@@ -2,10 +2,11 @@ import { Component, inject, signal } from '@angular/core';
 import { ChartComponent } from './chart-component/chart-component';
 import { LanguageStore } from '../../service/language-store';
 import { Language } from '../../service/language';
+import { MatDivider } from '@angular/material/list';
 
 @Component({
   selector: 'app-chart-page',
-  imports: [ChartComponent],
+  imports: [ChartComponent, MatDivider],
   templateUrl: './chart-page.html',
   styleUrl: './chart-page.scss',
 })

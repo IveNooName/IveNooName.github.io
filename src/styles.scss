@@ -44,3 +44,14 @@ body {
   margin-inline: auto;
   padding-inline: 20px;
 }
+
+.page-title {
+  font-weight: bold;
+  font-size: 3em;
+}
+
+mat-divider.page-divider {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
