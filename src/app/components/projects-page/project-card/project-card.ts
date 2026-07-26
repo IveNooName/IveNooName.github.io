@@ -20,9 +20,4 @@ import { MatButton } from '@angular/material/button';
 })
 export class ProjectCard {
   readonly project = input.required<Project>();
-
-  projectLink(): void {
-    location.href=this.project().repoLink;
-  }
-
 }
