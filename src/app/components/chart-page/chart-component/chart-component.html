@@ -6,25 +6,19 @@
         <mat-divider></mat-divider>
       </div>
     }
-    <div class="backgroundLines">
-      <span>0</span>
-      <mat-divider></mat-divider>
-    </div>
   </div>
 
   <div class="container">
     @for (l of chartData(); track $index) {
-      <div class="test" [style.height.%]="l.percent"></div>
+      <div class="pillar" [style.height.%]="l.percent">
+        <p>{{ l.percent | number:'1.0-1' }}%</p>
+      </div>
     }
   </div>
 </div>
 
-<br>
-<br>
-<br>
-<br>
-<div class="container2">
+<div class="language-bar">
   @for (l of chartData(); track $index) {
-    <div class="test2">{{ l.name }}</div>
+    <div class="language">{{ l.name }}</div>
   }
 </div>

@@ -3,43 +3,45 @@
   grid-template-columns: 100px 1fr 50px;
   gap: 12px;
 }
-
 .box {
   background: var(--mat-sys-surface-container);
   height: 100px;
   rotate: 180deg;
 }
-
 .bar {
   background: var(--mat-sys-primary);
   height: 100%;
 }
-
 
 .container {
   display: flex;
   height: 600px;
   gap: 16px;
   align-items: flex-end;
-  padding-left: 50px;
+  padding-left: 55px;
   margin-top: 30px;
 }
+.container p {
+  font-weight: lighter;
+  font-size: 1.25em;
+  justify-self: center;
+  margin-top: -22px;
 
-.test {
+}
+.pillar {
   background: var(--mat-sys-primary);
   width: 100px;
 }
 
-
-.test2 {
-  width: 100px;
-}
-
-.container2 {
+.language-bar {
   display: flex;
   gap: 16px;
-  align-items: flex-end;
   padding-top: 1em;
+  padding-left: 55px;
+}
+.language {
+  width: 100px;
+  text-align: center;
 }
 
 .backgroundLines {
@@ -47,17 +49,21 @@
   align-items: center;
   justify-items: center;
 }
-
 .backgroundLines mat-divider {
   flex: 1;
   position: static;
 }
-
 .backgroundLines span {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
   font-weight: bold;
   font-size: 1.5em;
+
   width: 35px;
   height: 60px;
+  padding-right: 7px;
 }
 
 .stack {

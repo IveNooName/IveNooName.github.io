@@ -1,10 +1,11 @@
 import { Component, computed, input } from '@angular/core';
 import { Language } from '../../../service/language';
 import { MatDivider } from '@angular/material/list';
+import { DecimalPipe } from '@angular/common';
 
 @Component({
   selector: 'app-chart-component',
-  imports: [MatDivider],
+  imports: [MatDivider, DecimalPipe],
   templateUrl: './chart-component.html',
   styleUrl: './chart-component.scss',
 })
@@ -27,7 +28,7 @@ export class ChartComponent {
   });
 
   ngOnInit() {
-    for (let i = 10; i > 0; i--) {
+    for (let i = 10; i >= 0; i--) {
       this.numbersForStat.push(i * 10);
     }
   }
