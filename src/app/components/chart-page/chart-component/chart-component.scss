@@ -37,9 +37,10 @@
   gap: 16px;
   padding-top: 1em;
   padding-left: 55px;
+  flex-shrink: 0;
 }
 .language {
-  width: 100px;
+  min-width: 100px;
   text-align: center;
 }
 
