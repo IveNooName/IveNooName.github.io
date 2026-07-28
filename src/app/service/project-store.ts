@@ -8,11 +8,9 @@ import { Project } from './project';
 })
 export class ProjectStore {
   http = inject(HttpClient);
-  apiUrl: string = 'https://raw.githubusercontent.com/IveNooName/IveNooName.github.io/refs/heads/main/public/projects.json';
+  apiUrl: string = '/projects.json';
 
   getAll(): Observable<Project[]> {
-    return this.http.get<Project[]>(this.apiUrl)
+    return this.http.get<Project[]>(this.apiUrl);
   }
-
-
 }
