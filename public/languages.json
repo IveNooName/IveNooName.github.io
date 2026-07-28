@@ -17,7 +17,7 @@
     "name": "TypeScript",
     "description": "",
     "note": "",
-    "totalLines": 1479,
+    "totalLines": 1866,
     "percent": 0
   },
   {
@@ -31,35 +31,56 @@
     "name": "C#",
     "description": "",
     "note": "",
-    "totalLines": 500,
+    "totalLines": 1936,
     "percent": 0
   },
   {
     "name": "Python",
     "description": "",
     "note": "",
-    "totalLines": 300,
+    "totalLines": 262,
     "percent": 0
   },
   {
     "name": "HTML",
     "description": "",
     "note": "",
-    "totalLines": 1000,
+    "totalLines": 2500,
     "percent": 0
   },
   {
     "name": "CSS",
     "description": "",
     "note": "",
-    "totalLines": 500,
+    "totalLines": 1708,
+    "percent": 0
+  },
+  {
+    "name": "SCSS",
+    "description": "",
+    "note": "",
+    "totalLines": 551,
+    "percent": 0
+  },
+  {
+    "name": "SQL",
+    "description": "",
+    "note": "",
+    "totalLines": 541,
     "percent": 0
   },
   {
     "name": "JSON",
     "description": "",
     "note": "",
-    "totalLines": 200,
+    "totalLines": 254,
+    "percent": 0
+  },
+  {
+    "name": "Batch",
+    "description": "",
+    "note": "",
+    "totalLines": 378,
     "percent": 0
   }
 ]
