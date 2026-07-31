@@ -1,9 +1,9 @@
 [
   {
     "id": 1,
-    "title": "Blackflag",
-    "description": "A Music-Piracy-Program for downloading music",
-    "repoLink": "https://www.github.com/ivenooname/blackflag",
+    "title": "This Website",
+    "description": "Made with Angular",
+    "repoLink": "https://www.github.com/ivenooname/ivenooname.github.io",
     "imageLink": "/project-images/1.png"
   },
   {
@@ -22,9 +22,9 @@
   },
   {
     "id": 4,
-    "title": "This Website",
-    "description": "Made with Angular",
-    "repoLink": "https://www.github.com/ivenooname/ivenooname.github.io",
+    "title": "Blackflag",
+    "description": "A small project for downloading music",
+    "repoLink": "https://www.github.com/ivenooname/blackflag",
     "imageLink": "/project-images/4.png"
   }
 ]
