@@ -17,7 +17,7 @@
     "id": 3,
     "title": "My first personal website",
     "description": "My first personal website, that i coded",
-    "repoLink": "https://www.github.com/ivenooname/first-website",
+    "repoLink": "https://www.github.com/ivenooname/",
     "imageLink": "/project-images/3.png"
   },
   {
@@ -26,5 +26,12 @@
     "description": "A small project for downloading music",
     "repoLink": "https://www.github.com/ivenooname/blackflag",
     "imageLink": "/project-images/4.png"
+  },
+  {
+    "id": 5,
+    "title": "Q7n",
+    "description": "???",
+    "repoLink": "https://www.github.com/ivenooname/",
+    "imageLink": "/project-images/placeholder.png"
   }
 ]
