@@ -33,5 +33,12 @@
     "description": "???",
     "repoLink": "https://www.github.com/ivenooname/",
     "imageLink": "/project-images/placeholder.png"
+  },
+  {
+    "id": 6,
+    "title": "PassGen",
+    "description": "Password Generator, written in C#",
+    "repoLink": "https://github.com/IveNooName/Modul-319",
+    "imageLink": "/project-images/placeholder.png"
   }
 ]
